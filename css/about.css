@@ -1,0 +1,22 @@
+section{
+	/*background-color: red;*/
+	width: 66%;
+	margin:0 auto;
+	margin-top:53px;
+}
+.imgList1{
+	padding-top: 10%;
+	width:41%;
+	margin:0 auto;
+}
+.imgList1 img{
+	width: 100%;
+}
+section h2{
+	padding:0;
+	padding-bottom: 11.3%;
+}
+section p{
+	font-size: 1.5rem;
+	line-height: 150%;
+}

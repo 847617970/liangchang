@@ -1,0 +1,136 @@
+html{
+	font-size: 56%;
+}
+.bg{
+	background-color: #f5f5f5;
+	max-width: 1400px;
+	position: relative;
+	margin:0 auto;
+}
+
+/*当导航栏被选中的时候*/
+#navbar .active a{
+	background-color: #cfdb00;
+}
+.navbar .container{
+	width: 78%;
+}
+.navbar-brand{
+	padding:0;
+	float: left;
+	width: 110px;
+}
+.navbar-brand img{
+	width: 100%;
+}
+#navbar a{
+	transition: 2s;
+}
+#navbar a:hover{
+	background-color: rgba(207,219,0,0.5);
+}
+section{
+	width: 75.2%;
+	margin: 0 auto;
+	padding-bottom:11%;
+}
+h2{
+	padding-top: 13%;
+	padding-bottom: 5.5%;
+	/*background-color: red;*/
+	font-size: 2.6rem;
+	color: #616161;
+	text-align: center;
+}
+h2 span{
+	position: relative;
+}
+h2 span:before{
+	content: "";
+	display: block;
+	position: absolute;
+	left: -140px;
+	top:15px;
+	width: 116px;
+	height: 2px;
+	background-color: #cfdb00;
+}
+h2 span:after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: -140px;
+	top:15px;
+	width: 116px;
+	height: 2px;
+	background-color: #cfdb00;
+}
+
+h3{
+	font-size: 2rem;
+	margin-top: 3%;
+}
+.bottom{
+	background-color: #fff;
+	padding-bottom: 6.6%;
+	position: relative;
+}
+.bottom .delta{
+	z-index: 600;
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top:-40px;
+	left: 50%;
+	margin-left: -15px;
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom:40px solid #cfdb00;
+}
+.bottom .delta div{
+	margin-top: 5px;
+	width: 30px;
+	height: 10px;
+	font-size: 15px;
+	margin-left: -15px;
+	line-height: 15px;
+	vertical-align: bottom;
+	color: #fff;
+	/*background-color: orange;*/
+	text-align: center;
+}
+.bottom p{
+	text-align: center;
+	color: #898989;
+	font-size: 1.6rem;
+}
+footer{
+	height: 66px;
+	border-top:2px solid #cfdb00;
+	line-height: 66px;
+	background-color: #b4b4b4;
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+}
+@media screen and (max-width: 640px){
+	html{
+		font-size: 30%;
+	}
+	h2 span:before{
+		top:7px;
+		left: -70px;
+		width: 60px;
+	}
+	h2 span:after{
+		right: -70px;
+		top:7px;
+		width: 60px;
+	}
+	footer{
+		height: 40px;
+		line-height: 40px;
+	}
+}
